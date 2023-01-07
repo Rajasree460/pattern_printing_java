@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class pattern_8
+{
+public static void main(String args[])
+{
+    int i,j,k,n;
+    System.out.println("enter the value of n");
+    Scanner sc=new Scanner(System.in);
+    n=sc.nextInt();
+    for(i=0;i<n;i++)
+    {
+        for(j=0;j<n-i-1;j++)
+        {
+            System.out.print(" ");
+        }
+        for(k=0;k<=i;k++)
+        {
+            System.out.print("*");
+        }
+        System.out.println("");
+    }
+}
+}
+/*  (for example if n=4)
+      *
+     **
+    ***
+   ****      */ 
