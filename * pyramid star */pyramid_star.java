@@ -1,0 +1,38 @@
+import java.util.*;
+public class patt_9_user_defined
+{
+    public static void main(String args[])
+    {
+        int n,i,j,k;
+        System.out.println("enter the value of n");
+        Scanner sc=new Scanner(System.in);
+        n=sc.nextInt();
+        for(i=0;i<n;i++)
+        {
+            for(j=0;j<n-i-1;j++)
+            {
+                System.out.print(" ");
+            }
+            for(k=0;k<2*i+1;k++)
+            {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+    }
+}
+
+
+
+
+
+
+
+/*
+ 
+(for example if n=3)
+    *
+   ***
+  *****
+
+ */
