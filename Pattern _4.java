@@ -16,7 +16,7 @@ public class pattern_4
         }
     }
 }
-/*2 
+/*  2 
     24 
     246 
     2468  */ 
